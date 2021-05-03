@@ -10,7 +10,7 @@ void childTask() {
 void parentTask() {
 	printf("Dan saya adalah bapaknya\n");
 }
-int main (void) {
+int main(void) {
 	pid_t pid=fork();
 
 	if(pid==0){
